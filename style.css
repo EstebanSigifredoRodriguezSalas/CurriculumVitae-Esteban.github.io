@@ -1,0 +1,44 @@
+hr {
+    height: 2px;
+    background-color: #000000;
+    border: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #040404;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: #000000;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(126, 219, 231);
+    padding: 20px;
+ 
+}
+.right {
+    position: initial;
+    background-color: #a2cace;
+    padding: 20px;
+ 
+}
+.image, .Contacto, .Habilidades, .Idiomas, .Resumen, .title,
+.Objetivos, .Especialidad, .Soft, .LPRM, .Futuro, .Dedicación {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(6, 103, 159);
+}
